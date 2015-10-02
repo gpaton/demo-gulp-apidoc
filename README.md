@@ -7,8 +7,9 @@ This demo demonstrates [issue #7](https://github.com/ayhankuru/gulp-apidoc/issue
 ## How to test
 
 1. Clone this repository
-2. Execute command `npm install`
-3. Execute command `gulp`
+2. Checkout the commit which demonstrates issue `git checkout 32c352a`
+3. Execute command `npm install`
+4. Execute command `gulp`
 
 ## Expected result
 
@@ -46,4 +47,11 @@ For instance :
 			]);
 		}
 	}
+
+## Fix
+
+`gulp-apidoc` has been fixed since the creation of this repository.
+I've included the new version with the fix to the gulp task needed.
+
+Just `git checkout master` to watch it work without issue.
 
